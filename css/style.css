@@ -1,0 +1,217 @@
+/* section welcome */
+
+
+.navbar{
+    font-size:20px;
+}
+.top-container{
+     position:relative;
+    background-color: #3A98B9;
+    color:#fff;
+    text-align: center ;
+    width:100%;
+}
+.top-img-container{
+    position:absolute;;
+    z-index:2;
+    width:42%;
+}
+
+.circuit{
+    margin:0;
+    margin-left:138%;
+width:100%;
+ 
+}
+
+.top-name-container{
+    position:relative;
+   z-index:3;
+   padding:10% 0% 16% 0%;
+   font-family:  'Montserrat', sans-serif;
+    height:50%;
+}
+.hello{
+    font-size:400%;
+}
+.name{
+    font-size:800%;
+    padding-top:20px;
+}
+
+@media(max-width:1427px){
+    .name{
+        font-size:5rem;
+    }
+}
+
+
+/* Section Education */
+#education{
+   
+    margin:5%;
+    margin-bottom:2;
+}
+.edua{
+    padding-top:5%;
+    padding-bottom: 3%;
+} 
+.edub{
+    padding-bottom: 3%;
+}
+.s-name{
+    font-size:2.5rem;
+}
+@media(max-width:1324px){
+    .s-name{
+        font-size: 1.5rem;;
+    }
+}
+p{
+    line-height: 0.5rem;
+}
+.loci{
+    font: italic 1.2em "Fira Sans", serif;
+    font-size:1.2rem;
+}
+.year{
+    float:right;
+    font:italic 1.5rem "Fira Sans", serif;
+    font-weight:bold;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    color:gray;
+}
+
+
+    
+
+/* Section project */
+#project{
+    
+    background-color:#93e2ff;
+    padding:0%;
+    width:100%;
+    height:70%; 
+}
+.prj-head{
+    margin:2% 5%;;
+    padding-top:3%;
+}
+
+.carousel-item{
+    padding:5% 15%;
+    
+}
+
+.prj-p{
+    line-height: 2rem;
+}
+
+.prj-link:link{
+    line-height:5rem;
+    text-decoration: underline;
+}
+
+hr{
+    width:20%;
+    border:5px solid yellow;
+    opacity: 1;
+}
+.prj-hr{
+    margin:0 5%;
+}
+
+
+/* Section Skills */
+
+#skill{
+    
+    padding:5% 5% 0% 5% ;
+}
+.skill-col{
+    padding:3%;
+}
+.card-body{
+padding-left:10%;
+}
+
+.work-link{
+    padding:3% 2% 2%;
+}
+.wla{
+    line-height:2rem;
+}
+
+
+
+/* Activities */
+
+#Activities{
+   
+    padding:5% 0;
+    background-color:#FFF1DC;
+}
+.acti{
+    margin:0 5%;
+}
+.acti-hr{
+    margin-left: 5%;;
+}
+.acti-link:link{
+    text-decoration: underline;
+}
+.carousel-control-next-icon{
+  color:black
+}
+
+
+/* contacty */
+#cta{
+    width:100%;
+   
+    padding:5% 5% 2% 5%;
+    background-color:black;
+    color:#fff;
+}
+.cont{
+    padding-bottom:2%;
+}
+.detail{
+    font-size:150%;
+    padding:1% 5%;
+    color:white;
+}
+.link{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.short-links{
+    
+    margin:3% 8px;
+    color: #fff;
+}
+.short-links:link{
+    color:#fff;
+}
+.short-links:hover{
+    color:gray;
+}
+
+.copy{
+    margin:5%;
+    margin-bottom:0;
+    text-align:center;
+}
