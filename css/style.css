@@ -1,8 +1,36 @@
+#side-bar{
+    position:fixed;
+    display: grid;
+    z-index:4;
+    bottom:30%;
+    right:0;
+    padding:0 20px 0px 0;
+    align-items: center;
+    background-color:rgb(172, 171, 171);
+    width: 50px;
+    border-radius:5px;
+    margin-right:5px;
+}
+
+#side-bar .sb1{
+    padding:10px;
+    color:white;
+    opacity:0.5;
+}
+
+#side-bar .sb1:hover{
+    color:white;
+   opacity:1;
+}
+
 /* section welcome */
 
 
 .navbar{
     font-size:20px;
+}
+.nav-item{
+    color:#0000;
 }
 .top-container{
      position:relative;
@@ -10,40 +38,46 @@
     color:#fff;
     text-align: center ;
     width:100%;
+    padding:5% 0% 20% 0 ;
 }
 .top-img-container{
-    position:absolute;;
+    position:absolute;
     z-index:2;
     width:42%;
+    top:0%;
 }
+
 
 .circuit{
     margin:0;
     margin-left:138%;
 width:100%;
- 
 }
+
+
 
 .top-name-container{
     position:relative;
    z-index:3;
-   padding:10% 0% 16% 0%;
-   font-family:  'Montserrat', sans-serif;
-    height:50%;
 }
 .hello{
+    padding-top:5%;
     font-size:400%;
+    font-family: 'Ubuntu', sans-serif;
 }
 .name{
     font-size:800%;
     padding-top:20px;
+    font-family: 'Montserrat', sans-serif;
 }
-
-@media(max-width:1427px){
-    .name{
-        font-size:5rem;
+@media(max-width:500px){
+    .top-img-container{
+    width:100%;
+    position:absolute;
+    top:100%;
     }
 }
+
 
 
 /* Section Education */
